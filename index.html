@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devlog-V1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Dev Journal</h1>
+
+    <form id="entry-form">
+      <label for="entry-text">Daily Log</label>
+      <textarea
+        name="entry-text"
+        id="entry-text"
+        placeholder="What did you learn today?"
+        required
+      ></textarea>
+      <button type="submit">Add Entry</button>
+    </form>
+
+    <h2>Your Entries:</h2>
+
+    <div class="search">
+      <input
+        type="search"
+        name="search"
+        id="search-input"
+        placeholder="Search your entries..."
+      />
+    </div>
+
+    <ul id="entries-list"></ul>
+    <p id="no-results" style="display: none; text-align: center; color: grey">
+      No matching entries found.
+    </p>
+    <p id="entry-count"></p>
+
+    <button id="download-btn">Download as .txt</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
