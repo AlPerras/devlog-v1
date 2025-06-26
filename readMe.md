@@ -2,7 +2,10 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Track your daily coding progress with a personal Dev Journal. Built in Stage 1 using HTML, CSS, and JavaScript — includes local persistence, search, deletion, and export features. Stage 2 will be a React-powered upgrade.
+Track your daily coding progress with a personal
+Dev Journal. 
+
+Built in Stage 1 using HTML, CSS, and JavaScript — includes local persistence, search, deletion, and export features. Stage 2 will be a React-powered upgrade.
 
 DevLog is a lightweight journal application built with **HTML, CSS, and vanilla JavaScript**. It allows developers to track their daily learning progress, store notes persistently in the browser, and interact with the app through a polished UI.
 
